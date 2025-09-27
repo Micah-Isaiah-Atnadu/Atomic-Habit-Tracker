@@ -40,6 +40,47 @@ A comprehensive habit tracking application designed specifically for coders and 
 - **Selective Deletion**: Clear today's data or all historical data
 - **History View**: Browse and manage past entries
 
+## 🚀 Quick Start
+
+### Method 1: Direct Use
+1. Copy the entire HTML code from the provided file
+2. Save it as `habit-tracker.html`
+3. Open the file in any modern web browser
+
+### Method 2: Online Deployment
+You can also host this on:
+- GitHub Pages
+- Netlify
+- Vercel
+- Any static hosting service
+
+## 📖 How to Use
+
+### Adding Habits
+1. Fill in the habit name (e.g., "JavaScript Practice")
+2. Select the type (Coding, Study, or Other)
+3. Set the duration in minutes
+4. Add optional notes about what you worked on
+5. Click "Add Habit"
+
+### Tracking Progress
+- Use the "Complete" button to mark habits as done
+- View your daily progress in the "Today's Habits" section
+- Monitor streaks in the dedicated streak panel
+
+### Using Analytics
+- Switch between tabs to view different data perspectives:
+  - **Progress Charts**: Visualize your time investment
+  - **Weekly/Monthly Summary**: See aggregated statistics
+  - **History Management**: Manage your historical data
+
+### Setting Up Reminders
+1. Check "Enable Daily Reminders"
+2. Set your preferred reminder time
+3. Allow browser notifications when prompted
+4. Test with the "Test Notification" button
+
+## 🎨 Customization
 
 ### Color Scheme
 The application uses CSS variables for easy customization. Modify these values in the `<style>` section:
@@ -56,6 +97,22 @@ The application uses CSS variables for easy customization. Modify these values i
 
 ### Adding New Habit Types
 Edit the `habitType` select element in the HTML to add new categories.
+
+## 💾 Data Management
+
+### Exporting Data
+1. Go to the "History Management" tab
+2. Click "Export Data"
+3. A JSON file will download with all your habit data
+
+### Importing Data
+1. Click "Import Data"
+2. Select your previously exported JSON file
+3. Confirm to replace current data
+
+### Resetting Data
+- **Clear Today**: Remove only today's habits
+- **Clear All**: Wipe all historical data (irreversible)
 
 ## 🔧 Technical Details
 
